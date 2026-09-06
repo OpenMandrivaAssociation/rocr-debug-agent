@@ -7,7 +7,7 @@ Summary:	ROCr GPU debug agent
 License:	MIT
 Group:		Development/Debuggers
 URL:		https://github.com/ROCm/rocm-systems
-Source0:	%{rocm_systems_source rocr-debug-agent}
+Source0:	https://github.com/ROCm/rocm-systems/releases/download/therock-10.0/rocr-debug-agent.tar.gz#/rocr-debug-agent-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
