@@ -17,8 +17,6 @@ BuildRequires:	rocdbgapi-devel
 BuildRequires:	pkgconfig(libdw)
 BuildRequires:	pkgconfig(libelf)
 
-ExclusiveArch:	%{x86_64} %{aarch64}
-
 %description
 librocm-debug-agent is loaded into GPU processes to support
 ROCgdb and post-mortem GPU debugging.
