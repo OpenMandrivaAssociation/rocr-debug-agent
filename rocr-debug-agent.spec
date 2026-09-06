@@ -44,6 +44,8 @@ Unversioned library symlink for the ROCr debug agent.
 
 %install
 %ninja_install -C build
+# Upstream also writes share/doc/rocm-debug-agent/; we ship those via %doc/%license
+rm -rf %{buildroot}%{_datadir}/doc/rocm-debug-agent
 
 %files
 %license LICENSE.txt
