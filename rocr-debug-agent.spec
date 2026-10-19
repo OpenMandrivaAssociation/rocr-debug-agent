@@ -1,13 +1,13 @@
-# ROCr debug agent. TheRock 10.0.
+# ROCr debug agent. TheRock 10.1.
 
 Name:		rocr-debug-agent
-Version:	10.0.0
+Version:	10.1.0
 Release:	1
 Summary:	ROCr GPU debug agent
 License:	MIT
 Group:		Development/Debuggers
 URL:		https://github.com/ROCm/rocm-systems
-Source0:	https://github.com/ROCm/rocm-systems/releases/download/therock-10.0/rocr-debug-agent.tar.gz#/rocr-debug-agent-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-systems/releases/download/therock-10.1/rocr-debug-agent.tar.gz#/rocr-debug-agent-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
